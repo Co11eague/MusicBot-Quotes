@@ -40,6 +40,11 @@
     <dependencies>
         <!-- Discord Dependencies -->
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.9.0</version> <!-- Use the latest version -->
+        </dependency>
+        <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
             <version>4.4.1_353</version>
@@ -50,6 +55,7 @@
             <version>3.0.5</version>
             <type>pom</type>
         </dependency>
+
 
         <!-- Music Dependencies -->
         <dependency>
